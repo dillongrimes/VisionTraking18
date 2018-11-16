@@ -1,8 +1,8 @@
 package org.usfirst.frc.team4786.robot.vision.messages;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import JSON.json.simple.JSONObject;
+import JSON.json.simple.parser.JSONParser;
+import JSON.json.simple.parser.ParseException;
 
 /**
  * Used to convert Strings into OffWireMessage objects, which can be interpreted

@@ -1,4 +1,4 @@
-package org.json.simple.parser;
+package JSON.json.simple.parser;
 
 /**
  * ParseException explains why and where the error occurs in source JSON text.

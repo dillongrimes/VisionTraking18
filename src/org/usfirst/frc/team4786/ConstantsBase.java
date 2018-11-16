@@ -1,4 +1,19 @@
-package com.team254.frc2016;
+package org.usfirst.frc.team4786;
+
+/*package org.usfirst.frc.team4786;
+
+public class Constants {
+	
+
+	public static int kDriveLeftTalonMasterID = 12;
+	public static int kDriveLeftTalonSlaveID = 17;
+	public static int kDriftRightMasterID = 13;
+	public static int kDriveRightSlaveID = 15;
+
+}
+
+*/
+
 
 import com.team254.lib.util.ConstantsBase;
 import com.team254.lib.util.InterpolatingDouble;
@@ -9,7 +24,7 @@ import edu.wpi.first.wpilibj.Solenoid;
  * A list of constants used by the rest of the robot code. This include physics
  * constants as well as constants determined through calibrations.
  */
-public class Constants extends ConstantsBase {
+public class ConstantsBase extends Constants{
     public static double kCenterOfTargetHeight = 89.0; // inches
 
     // Pose of the turret frame w.r.t. the vehicle frame
@@ -198,13 +213,13 @@ public class Constants extends ConstantsBase {
     public static int kHaveBallSensorAnalogId = 1;
     public static int kBallReadyAnalogId = 2;
 
-    /**
+    *//**
      * Make an {@link Solenoid} instance for the single-number ID of the
      * solenoid
      * 
      * @param solenoidId
      *            One of the kXyzSolenoidId constants
-     */
+     *//*
     public static Solenoid makeSolenoidForId(int solenoidId) {
         return new Solenoid(solenoidId / 8, solenoidId % 8);
     }
@@ -231,7 +246,7 @@ public class Constants extends ConstantsBase {
     public static InterpolatingTreeMap<InterpolatingDouble, InterpolatingDouble> kHoodAutoAimMap = new InterpolatingTreeMap<>();
 
     static {
-        /* Tune 4/23 with 6200 rpm setpoint */
+         Tune 4/23 with 6200 rpm setpoint 
         kHoodAutoAimMap.put(new InterpolatingDouble(60.0), new InterpolatingDouble(42.5));
         kHoodAutoAimMap.put(new InterpolatingDouble(70.0), new InterpolatingDouble(44.5));
         kHoodAutoAimMap.put(new InterpolatingDouble(75.0), new InterpolatingDouble(46.8));

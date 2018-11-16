@@ -1,4 +1,4 @@
-package com.team254.frc2016.vision;
+package org.usfirst.frc.team4786.robot.vision;
 
 /**
  * Tests the vision system by getting targets

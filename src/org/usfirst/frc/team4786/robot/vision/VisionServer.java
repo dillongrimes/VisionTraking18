@@ -1,11 +1,8 @@
-package com.team254.frc2016.vision;
+package org.usfirst.frc.team4786.robot.vision;
 
-import com.team254.frc2016.Constants;
+import org.usfirst.frc.team4786.*;
 
-import com.team254.frc2016.vision.messages.HeartbeatMessage;
-import com.team254.frc2016.vision.messages.OffWireMessage;
-import com.team254.frc2016.vision.messages.VisionMessage;
-import com.team254.lib.util.CrashTrackingRunnable;
+import org.usfirst.frc.team4786.robot.vision.messages.*;
 import edu.wpi.first.wpilibj.Timer;
 
 import java.io.IOException;

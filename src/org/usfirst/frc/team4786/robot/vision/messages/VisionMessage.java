@@ -1,6 +1,6 @@
 package org.usfirst.frc.team4786.robot.vision.messages;
 
-import org.json.simple.JSONObject;
+import JSON.json.simple.JSONObject;
 
 /**
  * An abstract class used for messages about the vision subsystem.

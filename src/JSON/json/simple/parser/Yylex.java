@@ -1,7 +1,7 @@
 package JSON.json.simple.parser;
 
 
-class Yylex {
+public class Yylex {
 
   /** This character denotes the end of file */
   public static final int YYEOF = -1;
@@ -265,7 +265,7 @@ class Yylex {
   /* user code: */
 private StringBuffer sb=new StringBuffer();
 
-int getPosition(){
+public int getPosition(){
 	return yychar;
 }
 
@@ -277,7 +277,7 @@ int getPosition(){
    *
    * @param   in  the java.io.Reader to read input from.
    */
-  Yylex(java.io.Reader in) {
+  public Yylex(java.io.Reader in) {
     this.zzReader = in;
   }
 
@@ -287,7 +287,7 @@ int getPosition(){
    *
    * @param   in  the java.io.Inputstream to read input from.
    */
-  Yylex(java.io.InputStream in) {
+  public Yylex(java.io.InputStream in) {
     this(new java.io.InputStreamReader(in));
   }
 
